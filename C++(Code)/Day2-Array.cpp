@@ -8,7 +8,7 @@ int main()
     cout << enemies[2] << endl;
 
     int size = sizeof(enemies) / sizeof(enemies[0]);
-    cout << size << endl;
+    cout << "Array Size: " << size << endl; 
 
     for (int i = 0; i < size; i++) // for loop
     {
